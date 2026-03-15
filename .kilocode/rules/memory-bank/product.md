@@ -1,44 +1,29 @@
-# Product Context: Next.js Starter Template
+# Product Context: Innovation Exchange
 
-## Why This Template Exists
+## Why This Exists
 
-Starting a new Next.js project involves boilerplate setup, configuration decisions, and establishing patterns. This template provides a clean, opinionated starting point that eliminates setup friction and establishes best practices from the start. It's optimized for AI-assisted development, where an AI can quickly extend the template based on user requirements.
+The Innovation Exchange addresses a critical gap in the intellectual property market: there's no secure, standardized way to trade ideas. Traditional methods involve NDA paperwork, legal fees, and trust issues. This platform provides cryptographic proof of ownership and secure escrow for transactions.
 
 ## Problems It Solves
 
-1. **Setup Time**: Eliminates boilerplate configuration (TypeScript, Tailwind, ESLint)
-2. **Decision Fatigue**: Pre-made choices for tooling and patterns
-3. **AI Context**: Memory bank provides persistent context for AI assistants
-4. **Extensibility**: Recipe system for adding common features
-5. **Consistency**: Standardized project structure and conventions
+1. **Idea Theft**: Cryptographic timestamps prove who first submitted an idea
+2. **Trust Issues**: Escrow protects both buyers and sellers
+3. **Progressive Disclosure**: 5-layer vault allows partial sharing before full sale
+4. **Valuation**: AI-powered Innovation Score helps price ideas
+5. **Legal Protection**: Built-in NDA signing and IP certificates
 
-## How It Should Work (User Flow)
+## User Flow
 
-1. User starts with this template
-2. User describes what they want to build to AI assistant
-3. AI adds pages, components, and features as needed
-4. AI uses recipes for common additions (database, auth)
-5. User previews changes via hot reload
-6. Iterate until satisfied
-7. Deploy
+1. User submits idea → gets SHA-256 fingerprint
+2. User adds encrypted layers (overview, technical, market, etc.)
+3. User lists on marketplace with price
+4. Buyers browse, make offers, send NDAs
+5. Escrow holds funds during transfer
+6. IP certificate issued on completion
 
-## Key User Experience Goals
+## Key Pages
 
-- **Zero to Feature Fast**: Get building immediately, no setup required
-- **AI-Friendly**: Memory bank and recipes make AI assistance effective
-- **Flexible Foundation**: Can become any type of application
-- **Best Practices Built-In**: TypeScript strict mode, ESLint, clean structure
-
-## What This Template Provides
-
-1. **Clean App Structure**: Single page ready for expansion
-2. **Type Safety**: Full TypeScript setup with strict mode
-3. **Modern Styling**: Tailwind CSS 4 ready to use
-4. **Code Quality**: ESLint configured
-5. **Extensibility**: Recipe system for common features
-
-## Integration Points
-
-- **Database**: Use add-database recipe for Drizzle + SQLite
-- **Styling**: Tailwind CSS pre-configured
-- **AI Assistance**: Memory bank for context persistence
+1. **Landing Page**: Hero, features, how-it-works, CTA
+2. **Marketplace**: Filterable grid of ideas
+3. **Idea Detail**: Full idea with layer vault system
+4. **Dashboard**: Portfolio management, activity, offers

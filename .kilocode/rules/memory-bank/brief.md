@@ -1,48 +1,36 @@
-# Project Brief: Next.js Starter Template
+# Project Brief: Innovation Exchange
 
 ## Purpose
 
-This is a minimal Next.js starter template designed for AI-assisted development. It provides a clean foundation that can be extended to build any type of web application through interaction with an AI assistant.
+A cryptographically secured intellectual property marketplace - "The Global Stock Market for Ideas" - where ideas become legally tradeable assets.
 
 ## Target Users
 
-- Developers wanting a clean Next.js starting point
-- Users building applications through AI-assisted coding
-- Teams needing a standardized, modern Next.js setup
+- Inventors and entrepreneurs looking to monetize their ideas
+- Investors seeking to buy innovative ideas
+- Businesses looking to acquire IP
 
-## Core Use Case
+## Core Features
 
-Users describe what they want to build to an AI assistant, which then expands this template by:
+- SHA-256 idea fingerprinting for proof of existence
+- AES-256-GCM layer encryption for progressive disclosure
+- 5-Layer CID vault system
+- AI-powered Innovation Score Engine
+- Escrow payment protection
+- DocuSign NDA integration
+- Legal IP certificates (PDF)
+- Real-time marketplace with filtering
 
-1. Adding components and pages as needed
-2. Installing additional dependencies
-3. Setting up databases, authentication, etc. using recipes
-4. Customizing styling and branding
+## Tech Stack
 
-## Key Requirements
-
-### Must Have
-
-- Modern Next.js 16 setup with App Router
-- TypeScript for type safety
-- Tailwind CSS 4 for styling
-- ESLint for code quality
-- Clean, minimal starting structure
-- Bun as package manager
-
-### Nice to Have
-
-- Recipe system for common additions (database, auth)
-- Memory bank for AI context persistence
-- Clear development guidelines
+- Next.js 16 with App Router
+- TypeScript
+- Tailwind CSS 4
+- Bun package manager
 
 ## Success Metrics
 
-- Clean, zero-error TypeScript setup
-- Passing lint and type checks
-
-## Constraints
-
-- Minimal dependencies by default
-- Framework: Next.js 16 + React 19 + Tailwind CSS 4
-- Package manager: Bun
+- Clean, zero-error TypeScript
+- Passing lint
+- Responsive design (mobile, tablet, desktop)
+- Smooth animations (60fps)
