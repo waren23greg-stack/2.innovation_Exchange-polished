@@ -1,4 +1,14 @@
 import { features } from '../data';
+import { Fingerprint, Lock, ShieldCheck, BarChart3, Scale, FileSignature } from 'lucide-react';
+
+const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
+  Fingerprint,
+  Lock,
+  ShieldCheck,
+  BarChart3,
+  Scale,
+  FileSignature,
+};
 
 export default function Features() {
   return (
@@ -14,19 +24,22 @@ export default function Features() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {features.map((feature, index) => (
-            <div
-              key={index}
-              className="glass rounded-xl p-6 card-hover"
-              style={{ animationDelay: `${index * 100}ms` }}
-            >
-              <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-[#00ff88]/20 to-[#06b6d4]/20 flex items-center justify-center text-2xl mb-4">
-                {feature.icon}
+          {features.map((feature, index) => {
+            const Icon = iconMap[feature.icon];
+            return (
+              <div
+                key={index}
+                className="glass rounded-xl p-6 card-hover"
+                style={{ animationDelay: `${index * 100}ms` }}
+              >
+                <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-[#00ff88]/10 to-[#06b6d4]/10 border border-[#2a2a3a] flex items-center justify-center mb-4">
+                  {Icon && <Icon className="w-7 h-7 text-[#00ff88]" />}
+                </div>
+                <h3 className="font-semibold text-lg mb-2">{feature.title}</h3>
+                <p className="text-[#8888a0] text-sm leading-relaxed">{feature.description}</p>
               </div>
-              <h3 className="font-semibold text-lg mb-2">{feature.title}</h3>
-              <p className="text-[#8888a0] text-sm leading-relaxed">{feature.description}</p>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

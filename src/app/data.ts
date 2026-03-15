@@ -267,32 +267,32 @@ export const mockIdeas: Idea[] = [
 
 export const features = [
   {
-    icon: '🔐',
+    icon: 'Fingerprint',
     title: 'SHA-256 Idea Fingerprinting',
     description: 'Every idea gets a unique cryptographic hash, creating an immutable proof of existence and timestamp.',
   },
   {
-    icon: '🔒',
+    icon: 'Lock',
     title: 'AES-256-GCM Encryption',
     description: 'Military-grade layer encryption ensures your idea details remain secure until you choose to reveal them.',
   },
   {
-    icon: '🏦',
+    icon: 'ShieldCheck',
     title: 'Escrow Payment Hold',
     description: 'Secure transactions with escrow protection. Funds are held until both parties fulfill their obligations.',
   },
   {
-    icon: '📊',
+    icon: 'BarChart3',
     title: 'Innovation Score Engine',
     description: 'AI-powered scoring system evaluates novelty, market potential, and technical feasibility.',
   },
   {
-    icon: '⚖️',
+    icon: 'Scale',
     title: 'Legal IP Certificates',
     description: 'Get official PDF certificates proving your intellectual property ownership and timestamps.',
   },
   {
-    icon: '🤝',
+    icon: 'FileSignature',
     title: 'DocuSign NDA Integration',
     description: 'Built-in non-disclosure agreements ensure legal protection before sharing sensitive details.',
   },
